@@ -86,9 +86,31 @@ font-size: 18px;
     font-size: 16px;
 }
 .portfolio-section{
-    padding-top: 5%;
+    margin-left: 18%;
+    margin-right: 16%;
 }
-
+.portfolio-section{
+    font-family: 'Copse', serif;;
+}
+.card-body{
+    cursor: pointer;
+}
+.contact-us{
+    background-image: url(images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.contact-us h3{
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    padding-bottom: 22px;
+    padding-top: 35px;
+}
+footer p{
+    padding-top: 3%;
+    
+}
 
 
 
