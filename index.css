@@ -34,8 +34,40 @@ font-family: 'Gabriela', serif;
 .delanihead p{
     color: #fff;
     font-size: 18px;
-    font-family: 'Gabriela' serif;
+    font-family: 'Gabriela', serif;
 }
 .mouse-click{
     padding-top: 10%;
 }
+.about-us{
+    text-align: center;
+    font-family: 'Copse', serif;
+}
+.about-us h1{
+    padding-top: 5%;
+    padding-bottom: 10px;
+
+}
+.about-us p{
+line-break: 25px;
+font-size: 18px;
+}
+.services{
+    background-image: url(images/s_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    font-family: 'Copse', serif;
+}
+
+.services h1{
+    padding-top: 8%;
+}
+.services p{
+    line-height: 30px;
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+
+ 
