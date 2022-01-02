@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.delanihead{
+    background-image: url(images/h_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;  
+    /* height: 700px; */
+}
+#logo-img{
+    padding-bottom: 10%;
+    padding-top: 11%;  
+}
+ .mouseclick{
+padding-top: 20px;
+padding-bottom: 30px;
+} 
+
+.delanihead h1{
+padding-bottom: 30px;
+color: #fff;
+font-family: 'Gabriela', serif;
+}
+.delanihead h4{
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.delanihead p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Gabriela' serif;
+}
+.mouse-click{
+    padding-top: 10%;
+}
