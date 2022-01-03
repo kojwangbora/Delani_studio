@@ -109,7 +109,49 @@ font-size: 18px;
 }
 footer p{
     padding-top: 3%;
+
+}
+.wrk1,.wrk2,.wrk3,.wrk4,.wrk5,.wrk6,.wrk7,.wrk8{
+    display: none;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    top: 45px;
+    background-color: transparent;
+    border: whitesmoke 2px solid;
+
+}
+input{
+    width:60%;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: #fff solid 1px;
+    margin-bottom: 15px;
+    margin-left: 20%;
     
+}
+textarea{
+    background-color: transparent;
+    margin-left: 15%;
+    resize: none;
+    width: 80%;
+    border: #fff 1px solid;
+    font-weight: 700;
+}
+.submit{
+    padding: 15px 25px;
+    border: #fff solid 1px;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Gabriela', serif;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 
