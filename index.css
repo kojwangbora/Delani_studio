@@ -77,13 +77,13 @@ font-size: 18px;
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.col-md-3{
-    margin-right: 1px;
-}
+ 
 #prod-management, #dev-sect, #design-sect{
-    display: none;
     font-family: 'Copse', serif;
     font-size: 16px;
+}
+.design-text, .development-text, .prod-management-text{
+    display: none;
 }
 .portfolio-section{
     margin-left: 18%;
