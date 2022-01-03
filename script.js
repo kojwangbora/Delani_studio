@@ -40,39 +40,39 @@ $(document).ready(function () {
     });
   });
   
-  $(".photo1").hover(() => {
-    $(".work1").toggle();
+  $(".image1").hover(() => {
+    $(".wrk1").toggle();
   });
   
-  $(".photo2").hover(() => {
-    $(".work2").toggle();
+  $(".image2").hover(() => {
+    $(".wrk2").toggle();
   });
   
-  $(".photo3").hover(() => {
-    $(".work3").toggle();
+  $(".image3").hover(() => {
+    $(".wrk3").toggle();
   });
   
-  $(".photo4").hover(() => {
-    $(".work4").toggle();
-  });
-  
-  
-  $(".photo5").hover(() => {
-    $(".work5").toggle();
+  $(".image4").hover(() => {
+    $(".wrk4").toggle();
   });
   
   
-  $(".photo6").hover(() => {
-    $(".work6").toggle();
-  });
-  
-  $(".photo7").hover(() => {
-    $(".work7").toggle();
+  $(".image5").hover(() => {
+    $(".wrk5").toggle();
   });
   
   
-  $(".photo8").hover(() => {
-    $(".work8").toggle();
+  $(".image6").hover(() => {
+    $(".wrk6").toggle();
+  });
+  
+  $(".image7").hover(() => {
+    $(".wrk7").toggle();
+  });
+  
+  
+  $(".image8").hover(() => {
+    $(".wrk8").toggle();
   });
   
   

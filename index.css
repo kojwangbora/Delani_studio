@@ -116,7 +116,10 @@ footer p{
     background-color: aquamarine;
     position: absolute;
     z-index: 1;
-    height: 200px;
+    height: 150px;
+    font-size: 24px;
+    color: #fff;
+    width: 200px;
     top: 45px;
     background-color: transparent;
     border: whitesmoke 2px solid;
