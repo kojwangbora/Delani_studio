@@ -1,7 +1,7 @@
 ## Project name
 - Delani Studio
 ## Project Description
-- A basic landing page for a studio as shown
+- A basic landing page for a studio
  
 ## Date of current version
 2/1/2022
