@@ -77,26 +77,26 @@ $(document).ready(function () {
   
   
   function validate() {
-    let name = document.getElementById("contact").value;
-    let mail = document.getElementById("mail").value;
-    let message = document.getElementById("message").value;
+    let name = document.getElementById("fulname").value;
+    let eMail = document.getElementById("email").value;
+    let texMessage = document.getElementById("textmsg").value;
     if (name.length < 2 || name.length === "") {
-      alert("please Enter your full name");
+      alert("Enter your full name");
     }
   
-    if (name.length > 2 && message.length < 10) {
+    if (name.length > 2 && message.length < 15) {
       alert("meassage too short");
     }
-    if (name.length > 2 && message.length > 10) {
+    if (name.length > 2 && message.length > 15) {
       alert(
-        "Hi " +
+        "Hello " +
         name +
-        " we have received your message. Thank you for keeping in touch"
+        " we've received your message. Thanksfor keeping in touch"
       );
     }
   }
   
-  var button = document.getElementById("button");
+  var button = document.getElementById("btn");
   button.addEventListener("click", () => {
     validate();
   });
