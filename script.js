@@ -1,38 +1,33 @@
 $(document).ready(function (){
-    $("#desgn-img").click(function (){
+    $("#design-img").click(function (){
         $(".design-text").toggle();
-        $("#desgn-img").toggle();
+        $("#design-img").toggle();
     });
 });
+
 $(document).ready(function () {
-    $("#product-img").click(function () {
+    $(".design-text").click(function () {
+      $(".design-text").toggle();
+      $("#design-img").toggle();
+    });
+  });
+
+  $(document).ready(function () {
+    $("#development-img").click(function () {
       $(".development-text").toggle();
-      $("#product-img").toggle();
-    });
-  });
-  $(document).ready(function () {
-    $("#product-img").click(function () {
-      $(".prod-management-text").toggle();
-      $("#product-img").toggle();
-    });
-  });
-  
-  $(document).ready(function () {
-    $("#develop").click(function () {
-      $(".design-show").toggle();
-      $("#develop").toggle();
+      $("#development-img").toggle();
     });
   });
   
   $(document).ready(function () {
     $(".development-text").click(function () {
       $(".development-text").toggle();
-      $("#product-img").toggle();
+      $("#development-img").toggle();
     });
   });
   
   $(document).ready(function () {
-    $("#product").click(function () {
+    $("#product-img").click(function () {
       $(".prod-management-text").toggle();
       $("#product-img").toggle();
     });
